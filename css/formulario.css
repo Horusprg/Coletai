@@ -43,12 +43,8 @@ input{
 }
 fieldset .campo{
 	float: left;
-	margin-left: 2em;
-	margin-right: 20em; 
-}
-#imagem{
-	margin-left: 0;
-	background: hsla(99,27%,53%,0.91);
+	margin-left: 1em;
+	margin-right: 100%
 }
 .campo input[type="text"], .campo input[type="email"], .campo input[type="date"], .campo input[type = "text"], .campo input[type="tel"], .campo input[type="password"]{
 	padding: 0.4em;
@@ -61,5 +57,9 @@ fieldset .campo{
 }
 #cadastro{
 	background: hsla(0,0%,100%,1.00);
-	margin-right: 1em;
+	margin-right: auto;
+}
+.radio label{
+	margin-bottom: 0.2em;
+	color: #000000;
 }

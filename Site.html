@@ -10,54 +10,51 @@
 	<div>
 		<fieldset>
 			<h1 id = "titulo">Cadastro de usuário</h1>
+			<br/>
 			<h2 id="subtitulo">Insira seus dados</h2>
 		  <br>
 		</fieldset>
 	</div>
 	<form>
 		<fieldset id = "cadastro">
-			
-			<div class = "campo">
-				<label for = "nome">Nome Completo:</label><br/>
+		  <div class = "campo">
+				<label for = "nome">Nome Completo:</label>
 				<input type = "text" name = "nome" id = "nome" required>
 			</div>
-			<div class = "campo">
-				<label for = "email">Email:</label><br/>
+		  <div class = "campo">
+				<label for = "email">Email:</label>
 				<input type = "email" name = "email" id = "email" required>
 			</div>
-			<div class = "campo">
-				<label>Digite seu CPF:</label><br/>
+		  <div class = "campo">
+				<label>Digite seu CPF:</label>
 				<input type = "text" name = "cpf" id = "cpf" required>
 			</div>
-			<div class = "campo">
-				<label>Qual seu gênero?</label>
-				<br/>
-				<label>
-					<input type = "radio" name = "genero" id = "feminino">Feminino
-				</label>
-				<br/>
-				<label>
-					<input type = "radio" name = "genero" id = "nbinario">Não-Binário
-				</label>
-				<br/>
-				<label>
-					<input type = "radio" name = "genero" id = "masculino">Masculino
-				</label>
+		  <div class = "radio">
+			<label>Qual seu gênero?</label><br/>
+			<label>
+		  		<input type = "radio" name = "genero" id = "feminino">Feminino<br/>
+			</label>
+			<label>
+		  		<input type = "radio" name = "genero" id = "nbinario">Não-Binário<br/>
+			</label>
+			<label>
+		  		<input type = "radio" name = "genero" id = "masculino">Masculino
+			</label>
 			</div>
-			<div class = "campo">
-				<label>Data de nascimento:</label><br/>
+		  <div class = "campo">
+				<label>Data de nascimento:</label>
 				<input type="date" name = "nascimento" id = "nascimento" required>
 			</div>
-			<div class = "campo">
-				<label>Telefone para contato:</label><br/>
+		  <div class = "campo">
+				<label>Telefone para contato:</label>
 				<input type ="tel" name = "telefone" id = "telefone" required>
 			</div>
-			<div class = "campo">
-				<label>Usuário:</label><br/>
+		  <div class = "campo">
+				<label>Usuário:</label>
 				<input type = "text" name = "user" id = "user" required>
 			</div>
-			<div class = "campo">
-				<label>Senha:</label><br/>
+		  <div class = "campo">
+				<label>Senha:</label>
 				<input type = "password" name = "senha" id = "senha" required>
 			</div>
 		</fieldset>
