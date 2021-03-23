@@ -1,0 +1,65 @@
+*{
+	margin: auto;
+	padding: auto;
+}
+
+#titulo{
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	color: #0A2F00;
+	margin-left: auto;
+	padding: 0.4em;
+	border: 2px solid #000000;
+	box-shadow: 2px 2px 8px rgb(0,0,0);
+	border-radius: 0.4em;
+}
+#subtitulo{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #066E00;
+	margin-left: auto;
+}
+
+fieldset {
+	border: 0;
+}
+body {
+	background-color: #B1B1B1;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.1em;
+	color: #FFFFFF;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-right: 10%;
+	justify-content: center;
+}
+input{
+	border-radius: 2em;
+}
+.campo{
+	margin: 1em;
+}
+.campo label{
+	margin-bottom: 0.2em;
+	color: #000000;
+}
+fieldset .campo{
+	float: left;
+	margin-left: 2em;
+	margin-right: 20em; 
+}
+#imagem{
+	margin-left: 0;
+	background: hsla(99,27%,53%,0.91);
+}
+.campo input[type="text"], .campo input[type="email"], .campo input[type="date"], .campo input[type = "text"], .campo input[type="tel"], .campo input[type="password"]{
+	padding: 0.4em;
+	border: 1px solid #AFAFAF;
+	box-shadow: 2px 2px 2px rgb(0,0,0,0,2);
+}
+
+.campo input:focus{
+	background: #D3D3D3;
+}
+#cadastro{
+	background: hsla(0,0%,100%,1.00);
+	margin-right: 1em;
+}
