@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/formulario.css" media="screen">
+	<title>Cadastro</title>
+</head>
+<body>
+	<div class="topo">
+		<div class="logo">	
+			</div><!--fim do logo-->
+		<div class="menu">
+			<ul>
+				<li><a href="index,html"> HOME</a></li>
+				<li><a href="login,html" class="active"> LOGIN</a></li>
+			</ul>
+		
+		</div><!--fim menu-->
+	
+	</div>
+	<!--fim do topo-->
+	<div>
+		<fieldset>
+			<h1 id = "titulo">Cadastro de usuário</h1>
+			<br/>
+			<h2 id="subtitulo">Insira seus dados</h2>
+		  <br>
+		</fieldset>
+	</div>
+	<form>
+		<fieldset id = "cadastro">
+		  <div class = "campo">
+				<label for = "nome">Nome Completo:</label>
+				<input type = "text" name = "nome" id = "nome" required>
+			</div>
+		  <div class = "campo">
+				<label for = "email">Email:</label>
+				<input type = "email" name = "email" id = "email" required>
+			</div>
+		  <div class = "campo">
+				<label>Digite seu CPF:</label>
+				<input type = "text" name = "cpf" id = "cpf" required>
+			</div>
+		  <div class = "radio">
+			<label>Qual seu gênero?</label><br/>
+			<label>
+		  		<input type = "radio" name = "genero" id = "feminino">Feminino<br/>
+			</label>
+			<label>
+		  		<input type = "radio" name = "genero" id = "nbinario">Não-Binário<br/>
+			</label>
+			<label>
+		  		<input type = "radio" name = "genero" id = "masculino">Masculino
+			</label>
+			</div>
+		  <div class = "campo">
+				<label>Data de nascimento:</label>
+				<input type="date" name = "nascimento" id = "nascimento" required>
+			</div>
+		  <div class = "campo">
+				<label>Telefone para contato:</label>
+				<input type ="tel" name = "telefone" id = "telefone" required>
+			</div>
+		  <div class = "campo">
+				<label>Usuário:</label>
+				<input type = "text" name = "user" id = "user" required>
+			</div>
+		  <div class = "campo">
+				<label>Senha:</label>
+				<input type = "password" name = "senha" id = "senha" required>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>

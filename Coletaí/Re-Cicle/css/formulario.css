@@ -1,0 +1,109 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.1em;
+	color: #FFFFFF;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-right: 10%;
+	justify-content: center;
+}
+.topo{
+	background-color: #FFFFFF;
+	width: all;
+	height: 80px;
+	border-bottom: 10px #53878C;
+	margin: 0;
+}
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+	background-image: url("../../imagens/logo.png");
+	position: relative;
+	margin: 10px 0 0 40px;
+}
+.topo .menu ul{
+	position: relative;
+	float: right;
+	margin: 35px 40px 0 50px;
+}
+.topo .menu ul li{
+	display: inline;
+	padding: 10px 10px 0 70px;
+	float: none;	
+}
+.topo .menu ul li a{
+	color: #000000;
+	text-decoration: none;
+	font-family: "Bebas Neue";
+	font-size: 200%;
+	font-weight: bold;
+}
+.topo .menu ul li a:hover {
+	text-decoration: underline;
+	color: #276955;
+	font-family: "Bebas Neue";
+	font-size: 200%;
+	font-weight: bold;
+}
+.topo .menu ul li .active{
+	color: #276955;
+	font-weight: bold;
+	font-family: "Bebas Neue";
+	font-size: 200%;
+}
+
+#titulo{
+	font-family: Oswald;
+	color: #FFFFFF;
+	margin-left: auto;
+	padding: 0.4em;
+	background-color: #276955;
+	border: 2px solid #000000;
+	box-shadow: 2px 2px 8px rgb(0,0,0);
+	border-radius: 0.4em;
+}
+#subtitulo{
+	font-family: Oswald;
+	color: #276955;
+	margin-left: 18px;
+}
+
+fieldset {
+	border: 0;
+}
+
+input{
+	border-radius: 2em;
+}
+.campo{
+	margin: 1em;
+}
+.campo label{
+	font-family: Lora;
+	margin-bottom: 0.2em;
+	color: #000000;
+}
+fieldset .campo{
+	float: left;
+	margin-left: 1em;
+	margin-right: 100%
+}
+.campo input[type="text"], .campo input[type="email"], .campo input[type="date"], .campo input[type = "text"], .campo input[type="tel"], .campo input[type="password"]{
+	padding: 0.4em;
+	border: 1px solid #AFAFAF;
+	box-shadow: 2px 2px 2px rgb(0,0,0,0,2);
+}
+
+.campo input:focus{
+	background: #D3D3D3;
+}
+#cadastro{
+	background: hsla(0,0%,100%,1.00);
+	margin-right: auto;
+}
+.radio label{
+	margin-bottom: 0.2em;
+	color: #000000;
+}
