@@ -355,6 +355,27 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: center;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+
+/* Bob */
+.v236_99:hover, .v236_99:focus, .v236_99:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
 .v236_98 {
   width: 85px;
@@ -368,6 +389,26 @@ body {
   font-size: 36px;
   opacity: 1;
   text-align: center;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+/* Bob */
+.v236_98:hover, .v236_98:focus, .v236_98:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
 .v236_97 {
   width: 40%;

@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v247_228 {
+  width: 100%;
+  height: 1543px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v247_229 {
+  width: 100%;
+  height: 94px;
+  background: rgba(39,105,85,1);
+  opacity: 1;
+  position: sticky;
+  top: 1448px;
+  left: 0px;
+  overflow: hidden;
+}
+.v247_230 {
+  width: 50%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+	bottom: 10%;
+	left: 10px;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: justified;
+}
+.v247_245 {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 15px;
+  left: 70%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v247_246 {
+  width: 104px;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 15px;
+  left: 55%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+/* Bob */
+.v247_246:hover, .v247_246:focus, .v247_246:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+.v247_247 {
+  width: 85px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 15px;
+  left: 40%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+/* Bob */
+.v247_247:hover, .v247_247:focus, .v247_247:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+.v247_248 {
+  width: 40%;
+  height: 82px;
+  background: url( "../imagens/logo.png");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  overflow: hidden;
+}
+.v263_0 {
+  width: 100%;
+  height: 1196px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 167px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  overflow: hidden;
+}
+.v264_46 {
+  width: 100%;
+  height: 1196px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+	border-color: #276955;
+	border-radius: 34px;
+	border-style: solid;
+}
+.v264_45{
+  width: 40%;
+	left: 30%;
+	top: 550px;
+  height: 500px;
+  background: url( "../imagens/Group.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+}
+.v264_40 {
+  width: 60%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 38px;
+  left: 20%;
+  font-family: Oswald;
+  font-weight: Bold;
+  opacity: 1;
+  text-align: center;
+	font-size: 48px;
+}
+.v264_40_1 {
+  width: 60%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 38px;
+	left: 20%;
+  font-family: Oswald;
+  font-weight: Bold;
+  opacity: 1;
+  text-align: center;
+	font-size: 36px;
+}
+.v264_47 {
+  width: 158px;
+  height: 58px;
+  background: rgba(39,105,85,1);
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  left: 85%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  overflow: hidden;
+}
+.v264_48 {
+  width: 122px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
