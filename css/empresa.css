@@ -170,7 +170,7 @@ body {
   background: rgba(39,105,85,1);
   opacity: 1;
   position: absolute;
-  top: 1307px;
+  top: 2007px;
   left: 0px;
   overflow: hidden;
 }
@@ -203,265 +203,306 @@ body {
 	border: none;
 	cursor: pointer;
 }
-.colab {
-  width: 95%;
-  height: 240px;
-  background: rgba(39,105,85,1);
-  opacity: 1;
-  position: absolute;
-  top: 1015px;
-	left: 2.5%;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
-  overflow: hidden;
-}
-.colab_head {
+.linha_baixo {
   width: 100%;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 50px;
-  left: 2.5%;
-  opacity: 1;
-  text-align: center;
-	font-size: 48px;
-	font: bold;
-	font-family: Oswald;
-  font-weight: Bold;
-}
-.clique {
-  width: 20%;
-  height: 100px;
+  height: 10px;
   background: rgba(39,105,85,1);
-  opacity: 1;
+  opacity: 0.30000001192092896;
   position: absolute;
-  top: 50%;
-  left: 40%;
-	border: none;
-  font-family: Oswald;
-  font-weight: Bold;
-  font-size: 36px;
-  color: rgba(255,255,255,1);
-	cursor: pointer
-}
-.clique {
-	display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.3s;
-}
-.clique:hover, .clique:focus, .clique:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
-.inscrevase {
-  width: 47.5%;
-  height: 832px;
-  background: rgba(39,105,85,1);
-  opacity: 1;
-  position: absolute;
-  top: 143px;
-  left: 50%;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 35px;
+  top: 1997px;
+  left: 0px;
   overflow: hidden;
 }
-.inscrevase_head {
-  width: 60%;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  font-family: Oswald;
-  font-weight: Bold;
-  font-size: 48px;
-  opacity: 1;
-  text-align: center;
-}
-.inscrevase_button {
-  width: 40%;
-	height: 11%;
-  color: rgba(39,105,85,1);
-  position: absolute;
-  top: 83%;
-  left: 30%;
-  font-family: Oswald;
-  font-weight: Bold;
-  font-size: 48px;
-  opacity: 1;
-  text-align: center;
-	border-radius: 35px;
-	background-size: contain;
-	background: rgba(255,255,255,1.00);
-	background-repeat: no-repeat;
-	background-position: center center;
-	border: none;
-	cursor: pointer;
-}
-.login {
-  width: 47.5%;
-  height: 832px;
-  background: rgba(192,192,192,1);
-  opacity: 1;
-  position: absolute;
-  top: 143px;
-  left: 2.5%;
-  border-top-left-radius: 35px;
-  border-bottom-left-radius: 35px;
-  overflow: hidden;
-}
-.login_body {
+.empresa_body {
   width: 100%;
-  height: 832px;
-  background: url("../images/v247_157.png");
+  height: 1848px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 0px;
+  top: 149px;
   left: 0px;
   overflow: hidden;
 }
-.login_facebook {
-  width: 20%;
-  height: 119px;
-  background: url(../imagens/facebook.png);
+.contato {
+  width: 50%;
+  height: 200px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 137px;
+  top: 1604px;
+  left: 50%;
+  overflow: hidden;
+}
+.contato_head {
+  width: 80%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 0px;
   left: 10%;
-  overflow: hidden;
-}
-.login_google {
-  width: 20%;
-  height: 115px;
-  background: url( "../imagens/google-plus.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  opacity: 1;
-  position: absolute;
-  top: 141px;
-  left: 40%;
-  overflow: hidden;
-}
-.login_linkedin {
-  width: 20%;
-  height: 112px;
-  background: url( "../imagens/linkedin.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  opacity: 1;
-  position: absolute;
-  top: 140px;
-  left: 70%;
-  overflow: hidden;
-}
-.login_head {
-  width: 60%;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 23px;
-  left: 20%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 52px;
+  font-size: 30px;
   opacity: 1;
   text-align: center;
 }
-.login_txt {
-  width: 60%;
-  color: rgba(255,255,255,1);
+.contato_button {
+  width: 50%;
+  height: 99px;
+  background: rgba(39,105,85,1);
+  opacity: 1;
   position: absolute;
-  top: 287px;
-  left: 20%;
+  top: 97px;
+  left: 25%;
+	border: none;
+	border-radius: 35px;
+  overflow: hidden;
+	font-family: Oswald;
+  font-weight: Bold;
+  font-size: 30px;
+  text-align: center;
+	color: rgba(255,255,255,1.00);
+	cursor: pointer;
+}
+.info_contato {
+  width: 100%;
+  height: 206px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 1;
+  position: absolute;
+  top: 1358px;
+  left: 0%;
+  overflow: hidden;
+	border-bottom: solid 3px rgba(39,105,85,1);
+	border-radius: 0px;
+}
+.info_contato_head {
+  width: 15%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 10%;
+  left: 0%;
   font-family: Oswald;
   font-weight: Bold;
   font-size: 36px;
   opacity: 1;
   text-align: center;
 }
-.login_email {
-  width: 50%;
-  height: 59px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 365px;
-  left: 25%;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
-  overflow: hidden;
-	font-size: 24px;
-	text-align: center;
-	border: none;
-}
-.login_senha {
-  width: 50%;
-	height: 59px;
+.info_contato_txt {
+  width: 70%;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 454px;
-  left: 25%;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
-  overflow: hidden;
-	font-size: 24px;
-	text-align: center;
-	border: none;
-}
-.login_button {
-	width: 30%;
-	height: 11%;
-  color: rgba(255,255,255,1.00);
-  position: absolute;
-  top: 83%;
-  left: 35%;
+  top: 10%;
+  left: 15%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 48px;
+  font-size: 36px;
   opacity: 1;
   text-align: center;
-	border-radius: 35px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: rgba(39,105,85,1);
-	border: none;
-	cursor: pointer;
 }
-.login_esqueci {
-  width: 30%;
-	height: auto;
-  color: rgba(255,255,255,1.00);
+.info_pagamento {
+  width: 100%;
+  height: 206px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: absolute;
-  top: 70%;
-  left: 35%;
+  top: 1132px;
+  left: 0px;
+  overflow: hidden;
+	border-bottom: solid 3px rgba(39,105,85,1);
+	border-radius: 0px;
+}
+.info_pagamento_head {
+  width: 15%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.info_pagamento_txt {
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.info_orcamento {
+  width: 100%;
+  height: 206px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 876px;
+  left: 0px;
+  overflow: hidden;
+	border-bottom: solid 3px rgba(39,105,85,1);
+	border-radius: 0px;
+}
+.info_orcamento_head {
+  width: 15%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.info_orcamento_txt {
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.info_local {
+  width: 100%;
+  height: 206px;
+  background: url("../images/v275_76.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 364px;
+  left: 0px;
+  overflow: hidden;
+	border-bottom: solid 3px rgba(39,105,85,1);
+	border-top: solid 3px rgba(39,105,85,1);
+	border-radius: 0px;
+}
+.info_local_head {
+  width: 15%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.info_local_txt {
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.info_entulho {
+  width: 100%;
+  height: 206px;
+  background: url("../images/v278_0.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 620px;
+  left: 0px;
+  overflow: hidden;
+	border-bottom: solid 3px rgba(39,105,85,1);
+	border-radius: 0px;
+}
+.info_entulho_head {
+  width: 15%;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.info_entulho_txt {
+  width: 70%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.classif {
+  width: 399px;
+  color: rgba(39,105,85,1);
+  position: absolute;
+  top: 104px;
+  left: 379px;
   font-family: Oswald;
   font-weight: Bold;
   font-size: 24px;
   opacity: 1;
+  text-align: left;
+}
+.empresa_head {
+  width: 595px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 27px;
+  left: 359px;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
   text-align: center;
-	border-radius: 35px;
-	background-size: contain;
-	background: rgba(39,105,85,0.00);
-	background-repeat: no-repeat;
-	background-position: center center;
-	border: none;
-	cursor: pointer;
+}
+.empresa_png {
+  width: 248px;
+  height: 301px;
+  background: url("../imagens/toppng 1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 46px;
+  overflow: hidden;
+}
+.linha_cima {
+  width: 100%;
+  height: 10px;
+  background: rgba(39,105,85,1);
+  opacity: 0.30000001192092896;
+  position: absolute;
+  top: 139px;
+  left: 0px;
+  overflow: hidden;
 }

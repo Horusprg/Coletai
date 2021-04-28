@@ -6,7 +6,7 @@ body {
 }
 #header {
   width: 100%;
-  height: 100px;
+  height: 99px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -75,7 +75,7 @@ body {
 	right: 15%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
@@ -101,7 +101,7 @@ body {
 }
 .logo {
   width: 40%;
-  height: 82px;
+  height: 100px;
   background: url( "../imagens/logo.png");
   background-repeat: no-repeat;
   background-position: 10%;
@@ -109,11 +109,12 @@ body {
   opacity: 1;
   position: absolute;
   top: 17px;
+	left: 8px;
   overflow: hidden;
 }
 .entrar {
-  width: 158px;
-  height: 58px;
+  width: 178px;
+  height: 78px;
   background: rgba(39,105,85,1);
   opacity: 1;
   position: absolute;
@@ -127,7 +128,7 @@ body {
   overflow: hidden;
 	font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   color: rgba(255,255,255,1);
 	border: none;
@@ -157,7 +158,7 @@ body {
 	right: 15%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
@@ -190,7 +191,7 @@ body {
 	right: 30%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);

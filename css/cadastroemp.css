@@ -1,0 +1,762 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+#header {
+  width: 100%;
+  height: 99px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.servico {
+  width: 127px;
+  color: rgba(0,0,0,1.00);
+  position: absolute;
+  top: 15px;
+  left: 70%;
+	right: 15%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+/* Bob */
+.servico:hover, .servico:focus, .servico:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+.sobre {
+  width: 104px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 15px;
+  left: 55%;
+	right: 30%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+/* Bob */
+.sobre:hover, .sobre:focus, .sobre:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+.home {
+	width: 85px;
+  color: rgba(0,0,0,1.00);
+  position: absolute;
+  top: 15px;
+  left: 40%;
+	right: 15%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+	background-color: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+/* Bob */
+.home:hover, .home:focus, .home:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+.logo {
+  width: 40%;
+  height: 100px;
+  background: url( "../imagens/logo.png");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: contain;
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  overflow: hidden;
+}
+.entrar {
+  width: 178px;
+  height: 78px;
+  background: rgba(39,105,85,1);
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  left: 85%;
+	right: 0%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  overflow: hidden;
+	font-family: Oswald;
+  font-weight: Bold;
+  font-size: 48px;
+  text-align: center;
+  color: rgba(255,255,255,1);
+	border: none;
+	cursor: pointer;
+}
+.entrar {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.entrar:hover, .entrar:focus, .entrar:active {
+	-webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.rodape {
+  width: 100%;
+  height: 124px;
+  background: rgba(39,105,85,1);
+  opacity: 1;
+  position: absolute;
+  top: 2007px;
+  left: 0px;
+  overflow: hidden;
+}
+.rodape_txt {
+	width: 10em;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 85px;
+  left: 7em;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: contain;
+	background: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+.rodape_txt_1 {
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 85px;
+  left: 1em;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: justified;
+	background: rgba(0,0,0,0.00);
+	border: none;
+	cursor: pointer;
+}
+.info_txt{
+	width: 100%;
+	height: 1107px;
+	top: 150px;
+	left: 0px;
+	position: absolute;
+}
+.info_head{
+	width: 60%;
+	height: 90px;
+	top: 0px;
+	left: 20%;
+	position: absolute;
+	text-align: center;
+	border: solid 7px;
+	border-radius: 35px;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.info_0{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 130px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+
+/*RAZAO SOCIAL*/
+.info_1{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 200px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.razao_social{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 235px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*NOME FANTASIA*/
+.info_2{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 300px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.fantasia{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 335px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*CNPJ*/
+.info_3{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 400px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.cnpj{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 435px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*INSCRIÇÃO MUNICIPAL*/
+.info_4{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 500px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.im{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 535px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*TELEFONE*/
+.info_5{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 600px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.telefone{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 635px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*CELULAR*/
+.info_6{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 700px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.celular{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 735px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*RUA*/
+.info_7{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 800px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.endereco{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 835px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*COMPLEMENTO*/
+.info_8{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 900px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.endereco_comp{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 935px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*NÚMERO*/
+.info_9{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 1000px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.endereco_num{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1035px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*BAIRRO*/
+.info_10{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 1100px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.endereco_bairro{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1135px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*CIDADE*/
+.info_11{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 1200px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.endereco_cid{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1235px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*CEP*/
+.info_12{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 1300px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.endereco_cep{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1335px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*EMAIL*/
+.info_13{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 1400px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.email{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1435px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*SENHA*/
+.info_14{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 1500px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.senha{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1535px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*CONFIRME A SENHA*/
+.info_15{
+	width: 30%;
+	height: 50px;
+	left: 5%;
+	top: 1600px;
+	position: absolute;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(39,105,85,1);
+}
+.senha_conf{
+	width: 90%;
+  height: 49px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1635px;
+  left: 5%;
+  border-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: solid rgba(39,105,85,1);
+}
+
+/*DECLARO AS INFORMAÇÕES*/
+.declaro{
+	width: 3%;
+  height: 24px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1705px;
+  left: 5%;
+}
+.declaro_txt{
+	width: 80%;
+  height: 29px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1700px;
+  left: 8%;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(0,0,0,1.00);
+}
+
+/*CONCORDO COM OS TERMOS*/
+.concordo{
+	width: 3%;
+  height: 24px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1735px;
+  left: 5%;
+}
+.concordo_termos{
+	width: 80%;
+  height: 29px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1730px;
+  left: 7.5%;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(0,0,0,1.00);
+	cursor: pointer;
+}
+
+/*CADASTRAR*/
+.cadastrar{
+	width: 13%;
+  height: 54px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1785px;
+  left: 75%;
+	border-radius: 35px;
+	text-align: left;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(0,0,0,1.00);
+}
+.cadastrar_txt{
+	width: 13%;
+  height: 54px;
+  background: rgba(255,255,255,0.00);
+  opacity: 1;
+  position: absolute;
+  top: 1785px;
+  left: 75%;
+	border-radius: 35px;
+	text-align: center;
+	border: solid 4px rgba(39,105,85,1);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: oswald;
+	color: rgba(0,0,0,1.00);
+	cursor: pointer;
+}

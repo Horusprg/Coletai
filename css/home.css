@@ -87,13 +87,13 @@ body {
   width: 50%;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 15px;
+  top: 0px;
   left: 39px;
   font-family: Oswald;
   font-weight: Bold;
   opacity: 1;
   text-align: left;
-	font-size: 24px;
+	font-size: 30px;
 }
 .juntese_button {
   width: 251px;
@@ -390,7 +390,7 @@ body {
 	right: 15%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
@@ -423,7 +423,7 @@ body {
 	right: 30%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
@@ -456,7 +456,7 @@ body {
 	right: 15%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
@@ -482,7 +482,7 @@ body {
 }
 .logo {
   width: 40%;
-  height: 82px;
+  height: 100px;
   background: url( "../imagens/logo.png");
   background-repeat: no-repeat;
   background-position: 10%;
@@ -493,8 +493,8 @@ body {
   overflow: hidden;
 }
 .entrar {
-  width: 158px;
-  height: 58px;
+  width: 178px;
+  height: 78px;
   background: rgba(39,105,85,1);
   opacity: 1;
   position: absolute;
@@ -508,7 +508,7 @@ body {
   overflow: hidden;
 	font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   color: rgba(255,255,255,1);
 	border: none;
