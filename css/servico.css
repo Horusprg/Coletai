@@ -197,26 +197,14 @@ body {
 	opacity: 0.3;
 }
 
-.barrapesquisa {
-	position: absolute;
-	width: 440px;
+input[type="search"]{
+    position: absolute;
+    width: 440px;
 	height: 60px;
 	left: 38px;
 	top: 229px;
-
-	background: #FFFFFF;
-	border: 1px solid #000000;
-	box-sizing: border-box;
+    border: 2px solid #276955;
 	border-radius: 35px;
-}
-
-input[type="search"]{
-    position: absolute;
-    width: 370px;
-    height: 53px;
-    left: 46px;
-    top: 5px;
-    border: none;
     font-family: Oswald;
     font-style: normal;
     font-weight: bold;
@@ -226,6 +214,9 @@ input[type="search"]{
     align-items: center;
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
+}
+.fa-search {
+	background-color: red;
 }
 
 .empresa {
