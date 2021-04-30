@@ -20,7 +20,7 @@
 			<span class="rodape_txt">|</span>
 			<a href="#"><button class="rodape_txt_1">Termos de uso</button></a>
 		</div>
-		<div class="info_txt">
+		<form class="info_txt" id="cademp">
 			<span class="info_head">CADASTRO DE EMPRESA</span>
 			
 			<span class="info_0">(*) PREENCHIMENTO OBRIGATÓRIO.</span>
@@ -38,7 +38,7 @@
 			<input class="im" type="text" name="im" placeholder="INSCRIÇÃO MUNICIPAL" required>
 			
 			<span class="info_5">TELEFONE:</span>
-			<input class="telefone" type="tel" name="telefone" placeholder="(**) 1234 - 5678" readonly>
+			<input class="telefone" type="tel" name="telefone" placeholder="(**) 1234 - 5678">
 			
 			<span class="info_6">CELULAR*:</span>
 			<input class="celular" type="tel" name="celular" placeholder="(**) 91234 - 5678" required>
@@ -47,7 +47,7 @@
 			<input class="endereco" type="text" name="endereco" placeholder="RUA" required>
 			
 			<span class="info_8">COMPLEMENTO:</span>
-			<input class="endereco_comp" type="text" name="endereco_comp" placeholder="COMPLEMENTO" readonly>
+			<input class="endereco_comp" type="text" name="endereco_comp" placeholder="COMPLEMENTO">
 			
 			<span class="info_9">NÚMERO*:</span>
 			<input class="endereco_num" type="text" name="endereco_num" placeholder="NÚMERO" required>
@@ -76,7 +76,7 @@
 			<span class="concordo_txt"></span>
 			<a href="#"><button class="concordo_termos">Concordo com os <u>termos de uso</u>.</button></a>
 			
-			<button class="cadastrar" type="submit" name="cadastrar">CADASTRAR</button>
-		</div>
+			<input class="cadastrar" type="submit" value="CADASTRAR" form="cademp">
+		</form>
 </body>
 </html>
