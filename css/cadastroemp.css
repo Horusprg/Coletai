@@ -734,14 +734,15 @@ body {
   opacity: 1;
   position: absolute;
   top: 1785px;
-  left: 75%;
+  left: 75%;	
 	border-radius: 35px;
-	text-align: left;
-	border: none;
-	font-size: 24px;
+	text-align: center;
+	border: solid 4px rgba(39,105,85,1);
+	font-size: 30px;
 	font-weight: bold;
 	font-family: oswald;
 	color: rgba(0,0,0,1.00);
+	cursor: pointer;
 }
 .cadastrar_txt{
 	width: 13%;

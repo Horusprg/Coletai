@@ -7,16 +7,18 @@
 		<link rel = "stylesheet" type="text/css" href="css/hover.css"/>
 	</head>
 	<body>
-			<header class="header">
-				<a href="Servico.html"><button class="servico">SERVIÇO</button></a>
-				<a href="About.html"><button class="sobre">SOBRE</button></a>
-				<a href="Index.html"><button class="home">HOME</button></a>
-				<div class="logo"></div>
-			<a href="#"><button class="entrar">ENTRAR</button></a>
-			</header>
+			<nav>
+			<a href="Servico.html"><button class="servico">SERVIÇO</button></a>
+			<a href="About.html"><button class="sobre">SOBRE</button></a>
+			<a href="Index.html"><button class="home">HOME</button></a>
+			<div class="logo"></div>
+			<a href="Login.html"><button class="entrar">ENTRAR</button></a>
+		</nav>
 		<div class="rodape">
-				<a href="#"><button class="rodape_txt">Políticas de privacidade</button></a><span class="rodape_txt">|</span><a href="#"><button class="rodape_txt_1">Termos de uso</button></a>
-			</div>
+			<a href="#"><button class="rodape_txt">Políticas de privacidade</button></a>
+			<span class="rodape_txt">|</span>
+			<a href="#"><button class="rodape_txt_1">Termos de uso</button></a>
+		</div>
 		<div class="colab">
 				<span class="colab_head">QUER SE TORNAR UM COLABORADOR?</span>
 				<a href="Cadastroemp.html"><button class="clique">CLIQUE AQUI</button></a>
@@ -29,18 +31,18 @@
 					<span class="inscrever_head">CRIAR CONTA</span>
 					<span class="inscrever_txt">ou use seu e-mail:</span>
 					<form>
-					  <input class="inscrever_email" type="email" name="email" placeholder="exemplo@email.com">
-						<input class="inscrever_nome" type="text" name="nome" placeholder="nome">
-					  <input class="inscrever_senha" type="password" name="senha" placeholder="senha">
+					  <input class="inscrever_email" type="email" name="email" placeholder="exemplo@email.com" required>
+						<input class="inscrever_nome" type="text" name="nome" placeholder="nome" required>
+					  <input class="inscrever_senha" type="password" name="senha" placeholder="senha" required>
 					</form>
-					<a href="#"><button class="inscrever_button">INSCREVER</button></a>
-					<input class="inscrever_termos_button" type="checkbox" name="termos"><span class="inscrever_termos_button_1">Concordo com os termos de uso.</span>
+					<button class="inscrever_button" type="submit">INSCREVER</button>
+					<input class="inscrever_termos_button" type="checkbox" name="termos" required><span class="inscrever_termos_button_1">Concordo com os termos de uso.</span>
 					</div>
 			</div>
 			<div class="login">
 				<div class="login_body">
 					<span class="login_head">JÁ POSSUI CONTA?<br><br>BEM-VINDO DE VOLTA!</span>
-					<a href="#"><button class="login_button">LOGIN</button></a>
+					<a href="Login.html"><button class="login_button">LOGIN</button></a>
 				</div>
 			</div>
 	</body>
