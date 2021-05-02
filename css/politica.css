@@ -10,7 +10,7 @@ body {
   background: rgba(39,105,85,1);
   opacity: 1;
   position: absolute;
-  top: 6950px;
+  top: 6850px;
   left: 0px;
   overflow: hidden;
 }
@@ -64,13 +64,30 @@ body {
 	right: 15%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
 	border: none;
 	cursor: pointer;
 }
+.servico:hover, .servico:focus, .servico:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
 .logo {
   width: 40%;
   height: 82px;
@@ -93,7 +110,7 @@ body {
 	right: 30%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
@@ -125,7 +142,7 @@ body {
 	right: 15%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 	background-color: rgba(0,0,0,0.00);
@@ -150,8 +167,8 @@ body {
   animation-direction: normal, alternate;
 }
 .entrar {
-  width: 158px;
-  height: 58px;
+  width: 178px;
+  height: 78px;
   background: rgba(39,105,85,1);
   opacity: 1;
   position: absolute;
@@ -165,7 +182,7 @@ body {
   overflow: hidden;
 	font-family: Oswald;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   color: rgba(255,255,255,1);
 	border: none;
@@ -198,6 +215,8 @@ body {
 .container {
   position: absolute;
   top: 145px;
+	width: 90%;
+	left: 5%;
   font-family: Oswald;
 }
 h1 {
