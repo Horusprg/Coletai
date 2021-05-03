@@ -9,15 +9,15 @@
 	</head>
 	<body>
 		<nav>
-			<a href="Servico.html"><button class="servico">SERVIÇO</button></a>
-			<a href="About.html"><button class="sobre">SOBRE</button></a>
-			<a href="Index.html"><button class="home">HOME</button></a>
+			<a href="servico.php"><button class="servico">SERVIÇO</button></a>
+			<a href="about.php"><button class="sobre">SOBRE</button></a>
+			<a href="index.php"><button class="home">HOME</button></a>
 			<div class="logo"></div>
-			<a href="Login.html"><button class="entrar">ENTRAR</button></a>
+			<a href="login.php"><button class="entrar">ENTRAR</button></a>
 		</nav>
 		<div class="rodape">
-			<a href="politica.html"><button class="rodape_txt">Políticas de privacidade</button></a>
-			<a href="termos.html"><button class="rodape_txt_1">Termos de uso &nbsp;|</button></a>
+			<a href="politica.php"><button class="rodape_txt">Políticas de privacidade</button></a>
+			<a href="termos.php"><button class="rodape_txt_1">Termos de uso &nbsp;|</button></a>
 		</div>
     <div class="divisoria"></div>
     <div class="container">
@@ -34,7 +34,7 @@
 <br> <br> O usuário deverá fornecer um endereço de e-mail válido, através do qual o site realizará todas comunicações necessárias.
 <br> <br> Após a confirmação do cadastro, o usuário possuirá um login e uma senha pessoal, a qual assegura ao usuário o acesso individual à mesma. Desta forma, compete ao usuário exclusivamente a manutenção de referida senha de maneira confidencial e segura, evitando o acesso indevido às informações pessoais.
 <br> <br> Toda e qualquer atividade realizada com o uso da senha será de responsabilidade do usuário, que deverá informar prontamente a plataforma em caso de uso indevido da respectiva senha.
-<br> <br> O usuário, ao aceitar os Termos e Política de Privacidade, autoriza expressamente a plataforma a coletar, usar, armazenar, tratar, ceder ou utilizar as informações derivadas do uso dos serviços, do site e quaisquer plataformas, incluindo todas as informações preenchidas pelo usuário no momento em que realizar ou atualizar seu cadastro, além de outras expressamente descritas na <a href="politica.html">Política de Privacidade</a> que deverá ser autorizada pelo usuário. </p>
+<br> <br> O usuário, ao aceitar os Termos e Política de Privacidade, autoriza expressamente a plataforma a coletar, usar, armazenar, tratar, ceder ou utilizar as informações derivadas do uso dos serviços, do site e quaisquer plataformas, incluindo todas as informações preenchidas pelo usuário no momento em que realizar ou atualizar seu cadastro, além de outras expressamente descritas na <a href="politica.php">Política de Privacidade</a> que deverá ser autorizada pelo usuário. </p>
       <h2>5. Das responsabilidades</h2>
       <p> É de responsabilidade do usuário:
 <br> <br> a) defeitos ou vícios técnicos originados no próprio sistema do usuário;

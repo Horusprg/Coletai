@@ -9,15 +9,15 @@
 	</head>
 <body>
 		<nav>
-			<a href="Servico.html"><button class="servico">SERVIÇO</button></a>
-			<a href="About.html"><button class="sobre">SOBRE</button></a>
-			<a href="Index.html"><button class="home">HOME</button></a>
+			<a href="servico.php"><button class="servico">SERVIÇO</button></a>
+			<a href="about.php"><button class="sobre">SOBRE</button></a>
+			<a href="index.php"><button class="home">HOME</button></a>
 			<div class="logo"></div>
-			<a href="Login.html"><button class="entrar">ENTRAR</button></a>
+			<a href="login.php"><button class="entrar">ENTRAR</button></a>
 		</nav>
 		<div class="rodape">
-			<a href="politica.html"><button class="rodape_txt">Políticas de privacidade</button></a>
-			<a href="termos.html"><button class="rodape_txt_1">Termos de uso &nbsp;|</button></a>
+			<a href="politica.php"><button class="rodape_txt">Políticas de privacidade</button></a>
+			<a href="termos.php"><button class="rodape_txt_1">Termos de uso &nbsp;|</button></a>
 		</div>
 		<form class="info_txt" id="cademp" >
 			<span class="info_head">CADASTRO DE EMPRESA</span>
@@ -73,7 +73,7 @@
 			
 			<input class="concordo" type="checkbox" name="concordo" required>
 			<span class="concordo_txt"></span>
-			<a href="#"><button class="concordo_termos">Concordo com os <u>termos de uso</u>.</button></a>
+			<a href="termos.php"><button class="concordo_termos">Concordo com os <u>termos de uso</u>.</button></a>
 			
 			<input class="cadastrar" type="submit" value="CADASTRAR" form="cademp">
 		</form>
