@@ -1,6 +1,11 @@
+<?php
+	session_start();
+ ?>
+
 <!DOCTYPE html>
 <html>
 	<head>
+    <meta http-equiv="Cache-Control" content="no-store" />
 		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet" />
 		<link href="css/home.css" rel="stylesheet" />
 		<title>Home</title>
@@ -12,7 +17,7 @@
 			<a href="about.php"><button class="sobre">SOBRE</button></a>
 			<a href="index.php"><button class="home">HOME</button></a>
 			<div class="logo"></div>
-			<a href="login.php"><button class="entrar">ENTRAR</button></a>
+			 <a href="login.php"><button class="entrar">ENTRAR</button></a>
 		</nav>
 		<div class="rodape">
 			<a href="politica.php"><button class="rodape_txt">Políticas de privacidade</button></a>
@@ -47,6 +52,6 @@
 					<br>CLASSE C: RESÍDUOS SEM TECNOLOGIA PARA RECICLAGEM.</span>
 			</div>
 			<div class="classif_png"></div>
-			
+
 	</body>
 </html>
