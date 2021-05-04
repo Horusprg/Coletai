@@ -33,11 +33,21 @@
 					<a href="#" class="login_linkedin"></a>
 					<span class="login_head">ENTRE NO COLETAÍ</span>
 					<span class="login_txt">ou insira o e-mail da sua conta:</span>
-					<form id="login">
-					  <input class="login_email" type="email" name="email" placeholder="exemplo@email.com" required>
+					<form id="login" action="includes/login.inc.php" method="post">
+					  <input class="login_email" type="email" name="nome" placeholder="exemplo@email.com" required>
 					  <input class="login_senha" type="password" name="senha" placeholder="senha" required>
-						<input class="login_button" type="submit" value="LOGIN" form="login">
+						<button class="login_button" type="submit" name="login">LOGIN</button>
 					</form>
+					<?php
+					if (isset($_GET["error"])) {
+						if ($_GET["error"] == "emptyinput")  {
+							echo "<p> Preencha todos os campos! </p>";
+						}
+						else 	if ($_GET["error"] == "wronglogin")  {
+							echo "<p> Informações de login incorretas!</p>";
+						}
+				}
+					 ?>
 					<a href="#"><button class="login_esqueci">Esqueci minha senha</button></a>
 					<div class="v247_188">
 						<span class="v247_86"></span>

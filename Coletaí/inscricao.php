@@ -3,7 +3,7 @@
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet" />
 		<link href="css/inscricao.css" rel="stylesheet" />
-		<title>Signin</title>
+		<title>Inscreva-se</title>
 		<link rel = "stylesheet" type="text/css" href="css/hover.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -30,14 +30,36 @@
 					<a href="#" class="inscrever_linkedin"></a>
 					<span class="inscrever_head">CRIAR CONTA</span>
 					<span class="inscrever_txt">ou use seu e-mail:</span>
-					<form id="inscricao" >
+					<form id="inscricao" action="includes/signup.inc.php" method="post" >
 					  <input id="email" class="inscrever_email" type="email" name="email" placeholder="exemplo@email.com" required>
-						<input if="nome" class="inscrever_nome" type="text" name="nome" placeholder="nome" required>
+						<input id="nome" class="inscrever_nome" type="text" name="nome" placeholder="nome de usuário" required>
 					  <input id="senha" class="inscrever_senha" type="password" name="senha" placeholder="senha" required>
-					<input class="inscrever_button" type="submit" value="INSCREVER" form="inscricao">
+					<button class="inscrever_button" type="submit" name="submit">INSCREVER</button>
 					<input class="inscrever_termos_button" type="checkbox" name="termos" required>
 					</form>
-					<span class="inscrever_termos_button_1">Concordo com os <a href="termos.html">termos de uso</a>.</span>
+					<?php
+					if (isset($_GET["error"])) {
+						if ($_GET["error"] == "emptyinput")  {
+							echo "<p> Preencha todos os campos! </p>";
+						}
+						else 	if ($_GET["error"] == "invalidName")  {
+								echo "<p> Escolha um nome válido! </p>";
+						}
+						else 	if ($_GET["error"] == "invalidEmail")  {
+									echo "<p> Escolha um e-mail válido! </p>";
+						}
+						else 	if ($_GET["error"] == "stmtfailed")  {
+										echo "<p> Alguma coisa deu errado, tente de novo!</p>";
+						}
+						else 	if ($_GET["error"] == "NomeExiste")  {
+										echo "<p> Nome já registrado, tente outro!</p>";
+						}
+						else 	if ($_GET["error"] == "none")  {
+										echo "<p> Usuário registrado!</p>";
+						}
+				}
+					 ?>
+					<span class="inscrever_termos_button_1">Concordo com os <a href="termos.php">termos de uso</a>.</span>
 					</div>
 			</div>
 			<div class="login">

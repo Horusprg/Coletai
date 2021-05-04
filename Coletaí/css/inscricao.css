@@ -203,6 +203,7 @@ body {
 	border: none;
 	cursor: pointer;
 }
+
 .colab {
   width: 95%;
   height: 240px;
@@ -218,11 +219,11 @@ body {
   overflow: hidden;
 }
 .colab_head {
-  width: 100%;
+  width: 60%;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 50px;
-  left: 2.5%;
+  left: 20%;
   opacity: 1;
   text-align: center;
 	font-size: 48px;
@@ -260,10 +261,10 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
-.inscrevase {
+.inscrever {
   width: 47.5%;
   height: 832px;
-  background: rgba(39,105,85,1);
+  background: rgba(192,192,192,1);
   opacity: 1;
   position: absolute;
   top: 143px;
@@ -272,54 +273,10 @@ body {
   border-bottom-right-radius: 35px;
   overflow: hidden;
 }
-.inscrevase_head {
-  width: 60%;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  font-family: Oswald;
-  font-weight: Bold;
-  font-size: 48px;
-  opacity: 1;
-  text-align: center;
-}
-.inscrevase_button {
-  width: 40%;
-	height: 11%;
-  color: rgba(39,105,85,1);
-  position: absolute;
-  top: 83%;
-  left: 30%;
-  font-family: Oswald;
-  font-weight: Bold;
-  font-size: 48px;
-  opacity: 1;
-  text-align: center;
-	border-radius: 35px;
-	background-size: contain;
-	background: rgba(255,255,255,1.00);
-	background-repeat: no-repeat;
-	background-position: center center;
-	border: none;
-	cursor: pointer;
-}
-.login {
-  width: 47.5%;
-  height: 832px;
-  background: rgba(192,192,192,1);
-  opacity: 1;
-  position: absolute;
-  top: 143px;
-  left: 2.5%;
-  border-top-left-radius: 35px;
-  border-bottom-left-radius: 35px;
-  overflow: hidden;
-}
-.login_body {
+.inscrever_body {
   width: 100%;
   height: 832px;
-  background: url("../images/v247_157.png");
+  background: url("../images/v247_201.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -329,7 +286,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.login_facebook {
+.inscrever_facebook {
   width: 20%;
   height: 119px;
   background: url(../imagens/facebook.png);
@@ -342,7 +299,7 @@ body {
   left: 10%;
   overflow: hidden;
 }
-.login_google {
+.inscrever_google {
   width: 20%;
   height: 115px;
   background: url( "../imagens/google-plus.png");
@@ -355,7 +312,7 @@ body {
   left: 40%;
   overflow: hidden;
 }
-.login_linkedin {
+.inscrever_linkedin {
   width: 20%;
   height: 112px;
   background: url( "../imagens/linkedin.png");
@@ -368,19 +325,19 @@ body {
   left: 70%;
   overflow: hidden;
 }
-.login_head {
+.inscrever_head {
   width: 60%;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 23px;
+  top: 29px;
   left: 20%;
   font-family: Oswald;
   font-weight: Bold;
-  font-size: 52px;
+  font-size: 48px;
   opacity: 1;
   text-align: center;
 }
-.login_txt {
+.inscrever_txt {
   width: 60%;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -392,7 +349,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.login_email {
+.inscrever_email {
   width: 50%;
   height: 59px;
   background: rgba(255,255,255,1);
@@ -409,7 +366,7 @@ body {
 	text-align: center;
 	border: none;
 }
-.login_senha {
+.inscrever_nome {
   width: 50%;
 	height: 59px;
   color: rgba(0,0,0,1);
@@ -425,10 +382,113 @@ body {
 	text-align: center;
 	border: none;
 }
-.login_button {
-	width: 30%;
+.inscrever_senha {
+  width: 50%;
+	height: 59px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 543px;
+  left: 25%;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  overflow: hidden;
+	font-size: 24px;
+	text-align: center;
+	border: none;
+}
+.inscrever_button {
+	width: 40%;
 	height: 11%;
   color: rgba(255,255,255,1.00);
+  position: absolute;
+  top: 83%;
+  left: 30%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+	border-radius: 35px;
+	background-size: contain;
+	background: rgba(39,105,85,1);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: none;
+	cursor: pointer;
+}
+.inscrever_termos_button{
+	width: 5%;
+	height: 4%;
+  color: rgba(255,255,255,1.00);
+  position: absolute;
+  top: 75%;
+  left: 27%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+	border: none;
+	cursor: default;
+}
+.inscrever_termos_button_1{
+	width: 40%;
+	height: 3%;
+  color: rgba(255,255,255,1.00);
+  position: absolute;
+  top: 75%;
+  left: 33%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+	border: none;
+	cursor: default;
+}
+.login {
+  width: 47.5%;
+  height: 832px;
+  background: rgba(39,105,85,1);
+  opacity: 1;
+  position: absolute;
+  top: 143px;
+  left: 2.5%;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  overflow: hidden;
+}
+.login_body {
+  width: 100%;
+  height: 832px;
+  background: url("../images/v247_225.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.login_head {
+  width: 60%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-family: Oswald;
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.login_button {
+  width: 30%;
+	height: 11%;
+  color: rgba(39,105,85,1);
   position: absolute;
   top: 83%;
   left: 35%;
@@ -439,27 +499,7 @@ body {
   text-align: center;
 	border-radius: 35px;
 	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: rgba(39,105,85,1);
-	border: none;
-	cursor: pointer;
-}
-.login_esqueci {
-  width: 30%;
-	height: auto;
-  color: rgba(255,255,255,1.00);
-  position: absolute;
-  top: 70%;
-  left: 35%;
-  font-family: Oswald;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-	border-radius: 35px;
-	background-size: contain;
-	background: rgba(39,105,85,0.00);
+	background: rgba(255,255,255,1.00);
 	background-repeat: no-repeat;
 	background-position: center center;
 	border: none;
